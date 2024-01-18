@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화소개 card news</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="./img/favicon2.png" type="image/x-icon">
+</head>
+<style>
+    *{
+        margin: 0; padding: 0;
+    }
+    img, 
+    video, 
+    iframe {
+        vertical-align: middle;
+    }
+    body {
+        width: 1920px;
+        height: 1080px;
+        background: url(./img/background.jpg) no-repeat;
+        overflow: hidden;
+    }
+    .fixed_box{position:fixed;
+				bottom:20px;
+				right:30px;
+				width:40px;}
+    #cardnews_box {
+        margin-top:  150px;
+    }
+    .cardnews {
+        width: 620px;
+        height: 620px;
+    }
+    .cardnews img {
+        width: 100%;
+    }
+</style>
+<body>
+    <div id="cardnews_box">
+    <!-- Swiper -->
+    <div class="swiper cardnews">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="./img/시작.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/짱구.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/노량.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/서울의봄.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/아쿠아맨.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/위시.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/그리고 살아간다.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="fixed_box">
+        <a href="./index.html" class="home_btn">
+            <img src="./img/HOME.png" alt="home">
+        </a>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
