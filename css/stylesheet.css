@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'SKYBORI';
+    src: url('../fonts/928afa7305019203c6ccee57dfadfc8c.eot');
+    src: url('../fonts/928afa7305019203c6ccee57dfadfc8c.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/928afa7305019203c6ccee57dfadfc8c.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
